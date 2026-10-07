@@ -7,7 +7,7 @@
 
   <body>
     <header>
-      github.com/NoahB-07/7Gnome
+      www.github.com/NoahB-07/7Gnome
     </header>
   </body>  
 </html>
