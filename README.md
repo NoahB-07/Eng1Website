@@ -1,5 +1,7 @@
-<H>
+<title>
+Group 3.7 Engineering project
+</title>
 
-# Eng1Website
-
-</H>
+<header>
+github.com/NoahB-07/7Gnomes
+</header>
