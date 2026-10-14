@@ -6,14 +6,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
+    
     - name: Set up Python
       uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+        
     - name: Install dependencies
       run: |
-        sudo apt-get install -y texlive-latex-base texlive-pictures
+        sudo apt-get update
+        sudo apt-get install -y texlive-latex-base texlive-pictures dvisvgm
         pip install readme2tex
+        
     - name: Compile Readme
-      run: python -m readme2tex --output README.md --usepackage tikz README_RAW.md
+      run: python -m readme2tex --readme RAW_README.md --output README.md --usepackage tikz
+      
     - name: Commit changes
       run: |
         git config --global user.name 'github-actions'
