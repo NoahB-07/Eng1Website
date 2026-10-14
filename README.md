@@ -1,7 +1,7 @@
 
 # Group 3.7 Engineering project
 
-$
+$$
 \documentclass{article}
 \usepackage{plantuml}
 \begin{document}
@@ -23,4 +23,4 @@ And another one:\\
   @enduml
 \end{plantuml}
 \end{document}
-$
+$$
