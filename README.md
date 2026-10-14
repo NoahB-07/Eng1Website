@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    ![https://raw.githubusercontent.com/NoahB-07/Eng1Website/refs/heads/main/Gantt.puml](http://plantuml.com)
-    ![https://raw.githubusercontent.com/NoahB-07/Eng1Website/refs/heads/main/WorkBreakdownStructure.puml](http://plantuml.com)
+    ![Gantt Chart](http://plantuml.com)
+    ![Work Breakdown Structure](http://plantuml.com)
   </body>
 </html>
