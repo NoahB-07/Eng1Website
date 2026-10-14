@@ -1,0 +1,23 @@
+name: Render LaTeX Readme
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+    - name: Install dependencies
+      run: |
+        sudo apt-get install -y texlive-latex-base texlive-pictures
+        pip install readme2tex
+    - name: Compile Readme
+      run: python -m readme2tex --output README.md --usepackage tikz README_RAW.md
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add README.md svgs/
+        git commit -m "Update compiled README with LaTeX graphics" || echo "No changes to commit"
+        git push
