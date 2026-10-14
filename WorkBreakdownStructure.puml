@@ -1,0 +1,41 @@
+@startwbs
+* Goose Game
+** Website 
+
+** Reqirements
+
+*** Research
+**** Customer Interview
+**** Product Brief
+**** Researching Similar Products
+
+*** Write up Requirements
+**** Functional Requirments
+**** Nonfunctional Requirements
+
+
+** Architecture
+
+** Risk Assesment and Mitigation
+*** Write up Risk Assement
+*** Design a Risk Mitigation Plan
+**** Write up Risk Mitigation Plan
+
+
+
+** Implimentation
+
+*** Implement Frontend
+*** Implement Backend
+*** Backend-Frontend integration
+
+** Testing
+*** Design Testing Plan
+*** Test Implementation
+*** Write up Test Plan
+
+** Design
+*** Design Frontend
+*** Method Selection  
+*** Method Planning
+@endwbs
