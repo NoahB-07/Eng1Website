@@ -13,6 +13,6 @@ $
   \draw[black,fill=white,shape=rectangle] (5,0) rectangle (7,1) node[pos=.5] {Bob};
 \end{tikzpicture}
 $
-
+ 
 You can continue writing your normal markdown down here after the diagram block.
 
