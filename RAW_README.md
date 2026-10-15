@@ -6,6 +6,27 @@ This is a regular Markdown description of my repository. Below is the PlantUML d
 $
 \begin{tikzpicture}[yscale=-1, transform shape]
   % 1. Paste your raw PlantUML TikZ code right here
+@startgantt
+printscale daily zoom 2
+
+Project starts the 14st of October 2026
+[Deadline] requires 32 days
+-- Separator --
+
+[Requirments] requires 5 days
+[Risk assement] requires 5 days
+Then [Design] requires 1 week
+Then [Arcitecture] requires 1 week
+[Implimentation] requires 15 day
+[Implimentation] starts at [Design]'s end
+Then [Testing] requires 4 days
+Then [Review] requires 1 days
+
+mondays are coloured in Lightblue
+wednesdays are coloured in lightBlue
+
+
+@endgantt
   
   % Example PlantUML TikZ nodes:
   \draw[black,fill=white,shape=rectangle] (0,0) rectangle (2,1) node[pos=.5] {Alice};
